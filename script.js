@@ -14,3 +14,10 @@ function getComputerChoice() {
     console.log("I play " + computerChoice + "!");
     return computerChoice;
 }
+
+function getHumanChoice() {
+    let humanChoice = prompt("Make your play!");
+    console.log("You played " + humanChoice + ".");
+    return humanChoice;
+}
+
