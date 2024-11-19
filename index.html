@@ -6,8 +6,49 @@
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    
-    <script src="script.js"></script>
+    <h1>Let's play Rock, Paper, Scissors!</h1>
+    <h2>Click on your selection below!</h2>
+    <div id="container">
+        <button id="rock">ROCK</button>
+        <button id="paper">PAPER</button>
+        <button id="scissors">SCISSORS</button>
+    </div>
+    <div class="round">
+        <div id="playerSelection"></div>
+        <div id="computerSelection"></div>
+        <div id="roundScore"></div>
+    </div>
+    <div id="runningScore"></div>
+    <div id="finalScore"></div>
 
+    <script src="script.js"></script>
 </body>
+
+<style>
+    body {
+        text-align: center;
+    }
+
+    .round {
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        color: blue;
+    }
+
+    #runningScore, #finalScore {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    button {
+        font-weight: 700;
+        font-size: 16px;
+        color: blue;
+        margin: 10px;
+        width: 100px;
+        height: 50px;
+    }
+</style>
+
 </html>
